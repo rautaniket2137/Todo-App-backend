@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import User from "./Routes/User.js"
 import Todo from "./Routes/Todo.js"
-import { verifyToken } from "./middleware/jwt/authMiddleware.js";
+
 
 
 import { connectDb } from "./config/connectDB.js";
